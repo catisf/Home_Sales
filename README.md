@@ -6,7 +6,7 @@ The main aim of this project was to determine key metrics about home sales data,
 
 SparkSQL was used to query the data, and Spark was used to create temporary views, partition the data, cache and uncache a temporary table, and verify that the table has been uncached.
 
-Query time was measured for several of the queries, allowing to assess differences between the original temporary view, cached data and partitioned data. 
+Query time was measured for several of the queries, allowing to assess differences between the time it takes to resolve a query using the original temporary view, cached data and partitioned data. 
 
 ## Repository
 The file [`Home_Sales.ipynb`](https://github.com/catisf/Home_Sales/blob/main/Home_Sales.ipynb) contains all the code used in the analyses. 
